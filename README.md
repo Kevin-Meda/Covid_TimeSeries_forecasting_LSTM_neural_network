@@ -1,7 +1,7 @@
 # Covid Prediction Germany
 ## Covid Prediction for Germany in December 2021
 
-Machine Learning Prediction for Covid Cases
+Machine Learning/Deep Learning Prediction for Covid Cases
 
 In this project, an suoervised learning Neural Networks approach will be developed to predict Covid Cases for the December 2021.
 
