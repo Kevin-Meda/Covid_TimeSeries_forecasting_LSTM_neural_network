@@ -1,40 +1,38 @@
 # Covid Prediction Germany
-Covid Prediction for Germany in December 2021
+## Covid Prediction for Germany in December 2021
 
 Machine Learning Prediction for Covid Cases
 
 In this project, an suoervised learning Neural Networks approach will be developed to predict Covid Cases for the December 2021.
 
-Project Description / Problem to be solved
+**Jonathan, Satish and Kevin**
+
+## Project Description / Problem to be solved
 The main problem to be solved is to find a phenomena within the data without having a reference dataset. This means no supervised learning method is applicable. To solve this, we are applying unsupervised learning methods, to find anomalies within the data. After finding these anomalies, the corresponding data needs to be inspected and analyzed by domain experts to provide some explanation. Thus, the algorithm will be refined and the data better understood and validated. Following this strategy will lead to new findings, e.g. early detection of unknown failure modes and / or the finding of the black deposit phenomena.
 
-Goal
+### Goal
 The main goal of this project is to develop a Deep Learning Regression model. This Model should be used to predict with the highest accuracy the future covid cases, for that we take into account different factor such as the Vaccination Doses.
 
-Data Description
+## Data Description
+
 tbd.
 The data consists of ---  in ---:
 
-Test Images : t10k-images-idx3-ubyte
-Test Labels : t10k-labels-idx1-ubyte
-Train Images : train-images-idx3-ubyte
-Train Labels : train-labels-idx1-ubyte
-
 which we will first download.
-These files use the IDX file format (Details here). After preprocessing we will store these images as four numpy arrays consisting of two arrays for the images (28x28 px greyscale values between 0-255) and two arrays for the correct image lables (the number which is written in the image) between 0-9.
+These files ... (Details here). After preprocessing we will store ....
 
-Model Description
+## Model Description
 tbd.
 For the model we will try three different models. A simple linear model, an ensemble model and lastly a multi-layer dense neural network. This is not the state-of-the-art solution for this taks, but serves as a simple first idea benchmark.
 
-Results Overview
+## Results Overview
 tbd.
 Results here. For example:
 Prediction accuracy per model:
 
-Pandemic Model - 90%
-Ensemble - 85%
-Recurrent Neural Network - 80%
+* Pandemic Model - 90%
+* Ensemble - 85%
+* Recurrent Neural Network - 80%
 
 Examples of correct predictions:
 
@@ -43,14 +41,16 @@ Misclassification confusion matrix:
 Examples of wrong predictions:
 
 
-Project structure
-The structure of the project doesnt need to be complicated. I have copied a structure below as a template. You dont need to follow it.
-The Goal here is that you write one or two sentences explaining what is in the folders of your structure and how the structure looks like :-)
+## Project structure
+
+The Goal here is that you write one or two sentences explaining what is in the folders of your structure and how the structure looks like
+
+```
 .
-├── conf               <- Space for credentials (included in .gitignore)
+├── conf               <- Space for credentials (included in )
 │
 ├── data
-│   ├── 01_raw         <- Immutable input data (included in .gitignore)
+│   ├── 01_raw         <- Immutable input data (included in )
 │   ├── 02_intermediate<- Cleaned version of raw
 │   ├── 03_processed   <- Data used to develop models
 │   ├── 04_models      <- trained models
@@ -112,15 +112,47 @@ The Goal here is that you write one or two sentences explaining what is in the f
 │
 └── requirements.txt   <- The requirements file for reproducing the
                           analysis environment via pip.
+```
+## Example Coding Workflow
 
+1) Start by prototyping in a jupyter notebook (e.g. get to know your data, data cleansing, ...)
+2) Refactor a working code snippet as a function within the notebook.
+3) Test the function.
+4) Move the function into the src folder as a python file (to increase modularity and reusability).
+5) Import & Test the function in the jupyter notebook.
+6) Write a main project script.
 
-How use a template environment
+How to import functions into a notebook:  
+First we tell the notebook where the functions are
+
+```python
+import os
+import sys
+src_dir = os.path.join(os.getcwd(), '..', 'src')
+sys.path.append(src_dir)
+```
+
+Then we state which functions to import
+
+```python
+from d00_utils.functionname import functionname
+```
+
+See how nicely this ties into the standardized project structure?
+
+### How use a template environment
+
 To guarantee reproducability of results, it is a best-practise to export your project coding environment for others. The following commands show you how to do it.
 
-Save environment
-pip freeze > requirements.txt
+#### Save environment
 
-Load environment
-conda create -n example_project python=3.6 -y
-conda activate example_project
-pip install -r requirements.txt
+``pip freeze > requirements.txt``
+
+#### Load environment
+
+``conda create -n example_project python=3.6 -y``  
+``conda activate example_project``  
+``pip install -r requirements.txt``  
+
+---
+Read more at: [Pipelines and Project Workflow](https://github.com/dssg/hitchhikers-guide/tree/master/sources/curriculum/0_before_you_start/pipelines-and-project-workflow)
