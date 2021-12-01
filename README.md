@@ -8,7 +8,7 @@ In this project, different Models including a supervised learning Neural Network
 **Jonathan, Satish and Kevin**
 
 ## Project Description / Problem to be solved
-The main problem to be solved is to find a phenomena within the data without having a reference dataset. This means no supervised learning method is applicable. To solve this, we are applying unsupervised learning methods, to find anomalies within the data. After finding these anomalies, the corresponding data needs to be inspected and analyzed by domain experts to provide some explanation. Thus, the algorithm will be refined and the data better understood and validated. Following this strategy will lead to new findings, e.g. early detection of unknown failure modes and / or the finding of the black deposit phenomena.
+The main problem to be solved is to ...
 
 ### Goal
 The main goal of this project is to develop a Deep Learning Regression model. This Model should be used to predict with the highest accuracy the future covid cases, for that we take into account different factor such as the Vaccination Doses.
