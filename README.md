@@ -142,17 +142,7 @@ See how nicely this ties into the standardized project structure?
 
 ### How use a template environment
 
-To guarantee reproducability of results, it is a best-practise to export your project coding environment for others. The following commands show you how to do it.
-
-#### Save environment
-
-``pip freeze > requirements.txt``
-
-#### Load environment
-
-``conda create -n example_project python=3.6 -y``  
-``conda activate example_project``  
-``pip install -r requirements.txt``  
+To guarantee reproducability of results, it is a best-practise to export your project coding environment for others.   
 
 ---
 Read more at: [Pipelines and Project Workflow](https://github.com/dssg/hitchhikers-guide/tree/master/sources/curriculum/0_before_you_start/pipelines-and-project-workflow)
