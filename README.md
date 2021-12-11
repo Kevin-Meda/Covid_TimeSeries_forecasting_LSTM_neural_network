@@ -1,4 +1,4 @@
-# Covid Prediction in Germany
+# Covid Deaths Prediction in Germany
 ## Covid Prediction for Germany in December 2021
 
 Machine Learning/Deep Learning Prediction for Covid Cases
