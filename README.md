@@ -5,6 +5,7 @@ Machine Learning/Deep Learning Prediction for Covid Cases
 
 In this project, different Models including a supervised learning Neural Networks and an ensamble methood approach will be developed to predict Covid Cases for the December 2021
 
+
 **Jonathan, Satish and Kevin**
 
 ## Project Description / Problem to be solved
