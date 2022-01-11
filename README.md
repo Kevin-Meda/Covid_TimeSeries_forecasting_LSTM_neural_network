@@ -9,7 +9,7 @@ In this project, different Models including a supervised learning Neural Network
 **Jonathan, Satish and Kevin**
 
 ## Project Description / Problem to be solved
-The main problem to be solved is to ...
+The main problem to be solved is to ... 
 
 ### Goal
 The main goal of this project is to develop a Deep Learning Regression model. This Model should be used to predict with the highest accuracy the future covid cases, for that we take into account different factor such as the Vaccination Doses.
