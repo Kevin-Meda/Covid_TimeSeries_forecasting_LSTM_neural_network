@@ -1,7 +1,7 @@
 # Covid Deaths Prediction in Germany
 ## LSTM RNN for Multivariate Timeseries
 ## __Tableau Dashboard__ created to interact with dataset: 
-## https://public.tableau.com/views/CovidDeathsinGermanybyStateandAgeGroup/CovidAnalysisinGermany?:language=en-US&:display_count=n&:origin=viz_share_link
+### https://public.tableau.com/views/CovidDeathsinGermanybyStateandAgeGroup/CovidAnalysisinGermany?:language=en-US&:display_count=n&:origin=viz_share_link
 
 
 Machine Learning/Deep Learning Prediction for Covid Cases.
@@ -46,7 +46,7 @@ Examples of wrong predictions:
 
 
 ## Project structure
-
+tbd.
 The Goal here is that you write one or two sentences explaining what is in the folders of your structure and how the structure looks like
 
 ```
