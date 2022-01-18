@@ -7,13 +7,13 @@
 
 Machine Learning/Deep Learning Prediction for Covid Deaths.
 
-In this project, a Models including a supervised learning LSTM Recurrent Neural Networks based on TensorFlow is developed to predict Covid Deaths based on cases, recovered and vaccinated people
+In this project, a LSTM Recurrent Neural Networks based on TensorFlow is developed to predict the Covid Deaths in Germany for the following  based on cases, recovered people and vaccinated people
 
 
 **Jonathan, Satish and Kevin**
 
 ## Project Description / Problem to be solved
-The main problem to be solved is to predict the amount of deaths in the following 2 weeks depending on the amount of cases, receovered people and vaccination.
+The main problem to be solved is to predict the amount of deaths in the following 2 weeks depending on the amount of cases, receovered people and vaccination with 1 and 2 doses.
 
 ### Goal
 The main goal of this project is to develop a Deep Learning Recurrent Neuran Network Long Short Term Memory (RNN LSTM) model. This Model should be used to predict with the highest accuracy the future covid deaths, for that we take into account different factor such as the Vaccination Doses.
