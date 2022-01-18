@@ -5,7 +5,7 @@
 #### https://public.tableau.com/views/CovidDeathsinGermanybyStateandAgeGroup/CovidAnalysisinGermany?:language=en-US&:display_count=n&:origin=viz_share_link
 ![alt text](https://github.com/Kevin-Meda/Covid_TimeSeries_Prediction_Germany/blob/main/Covid%20Analysis%20in%20Germany.png)
 
-Machine Learning/Deep Learning Prediction for Covid Cases.
+Machine Learning/Deep Learning Prediction for Covid Deaths.
 
 In this project, a Models including a supervised learning LSTM Recurrent Neural Networks based on TensorFlow is developed to predict Covid Deaths based on cases, recovered and vaccinated people
 
