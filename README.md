@@ -1,11 +1,11 @@
 # Covid Deaths Prediction in Germany
 ## LSTM RNN for Multivariate Timeseries
-#### Data Source: https://www.kaggle.com/headsortails/covid19-tracking-germany
-### __Tableau Dashboard__ created to interact with dataset: 
+#### Data Source (3 datasets): https://www.kaggle.com/headsortails/covid19-tracking-germany
+### __Tableau Dashboard__ created to interact with datasets: 
 #### https://public.tableau.com/views/CovidDeathsinGermanybyStateandAgeGroup/CovidAnalysisinGermany?:language=en-US&:display_count=n&:origin=viz_share_link
 ![alt text](https://github.com/Kevin-Meda/Covid_TimeSeries_Prediction_Germany/blob/main/Covid%20Analysis%20in%20Germany.png)
 
-Machine Learning/Deep Learning Prediction for Covid Deaths.
+__Machine Learning/Deep Learning Prediction for Covid Deaths__
 
 In this project, a LSTM Recurrent Neural Networks based on TensorFlow is developed to predict the Covid Deaths in Germany for the following  based on cases, recovered people and vaccinated people
 
