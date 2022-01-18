@@ -1,19 +1,21 @@
 # Covid Deaths Prediction in Germany
-## Covid Prediction for Germany in December 2021
+## LSTM RNN for Multivariate Timeseries
+## __Tableau Dashboard__ created to interact with dataset: 
+## https://public.tableau.com/views/CovidDeathsinGermanybyStateandAgeGroup/CovidAnalysisinGermany?:language=en-US&:display_count=n&:origin=viz_share_link
 
 
 Machine Learning/Deep Learning Prediction for Covid Cases.
 
-In this project, different Models including a supervised learning Neural Networks and an ensamble methood approach will be developed to predict Covid Cases for the December 2021
+In this project, a Models including a supervised learning LSTM Recurrent Neural Networks based on TensorFlow is developed to predict Covid Deaths based on cases, recovered and vaccinated people
 
 
 **Jonathan, Satish and Kevin**
 
 ## Project Description / Problem to be solved
-The main problem to be solved is to ... 
+The main problem to be solved is to predict the amount of deaths in the following 2 weeks depending on the amount of cases, receovered people and vaccination.
 
 ### Goal
-The main goal of this project is to develop a Deep Learning Regression model. This Model should be used to predict with the highest accuracy the future covid cases, for that we take into account different factor such as the Vaccination Doses.
+The main goal of this project is to develop a Deep Learning Recurrent Neuran Network Long Short Term Memory (RNN LSTM) model. This Model should be used to predict with the highest accuracy the future covid deaths, for that we take into account different factor such as the Vaccination Doses.
 
 ## Data Description
 
