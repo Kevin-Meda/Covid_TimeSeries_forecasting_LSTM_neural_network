@@ -19,7 +19,7 @@ In this project, a LSTM Recurrent Neural Networks based on TensorFlow is develop
 The main problem to be solved is to predict the amount of deaths in the following 2 weeks depending on the amount of cases, receovered people and vaccination with 1 and 2 doses.
 
 ### Goal
-The main goal of this project is to develop a Deep Learning Recurrent Neuran Network Long Short Term Memory (RNN LSTM) model. This Model should be used to predict with the highest accuracy the future covid deaths, for that we take into account different factor such as the Vaccination Doses.
+The main goal of this project is to develop a Deep Learning Recurrent Neural Network Long Short Term Memory (RNN LSTM) model. This Model should be used to predict with the highest accuracy the future covid deaths, for that we take into account different factor such as the Vaccination Doses.
 
 ## Data Description tbd
 tbd.
@@ -28,20 +28,20 @@ The data consists of ---  in ---:
 which we will first download.
 These files ... (Details here). After preprocessing we will store ....
 
-## RNN Model Description 
+## Model Description 
+For the model we will try two different LSTM RNN models. The first one is with the the Tensor Flow Keras Libray and the second is with Pytorch. These are some of state-of-the-art solution for this taks and serve as a good benchmark for new models.
 
-For the model we will try two different LSTM RNN models. These are some of state-of-the-art solution for this taks and serve as a good benchmark for new models.
-
+### Recurrent Neural Network (RNN)
 Recurrent Neural Network is a generalization of feedforward neural network that has an internal memory. RNN is recurrent in nature as it performs the same function for every input of data while the output of the current input depends on the past one computation. After producing the output, it is copied and sent back into the recurrent network. For making a decision, it considers the current input and the output that it has learned from the previous input.
 Unlike feedforward neural networks, RNNs can use their internal state (memory) to process sequences of inputs. This makes them applicable to tasks such as unsegmented, connected handwriting recognition or speech recognition. In other neural networks, all the inputs are independent of each other. But in RNN, all the inputs are related to each other.
-![image](https://user-images.githubusercontent.com/67469727/150083398-7b419505-8bbf-44a6-8515-411b04eaf3f9.png)
 
+### Long Short Term Memory (LSTM)
 Long Short-Term Memory (LSTM) networks are a modified version of recurrent neural networks, which makes it easier to remember past data in memory. The vanishing gradient problem of RNN is resolved here. LSTM is well-suited to classify, process and predict time series given time lags of unknown duration. It trains the model by using back-propagation. 
 In an LSTM network, three gates are present:
-Input gate — discover which value from input should be used to modify the memory. Sigmoid function decides which values to let through 0,1. and tanh function gives weightage to the values which are passed deciding their level of importance ranging from-1 to 1.
-Forget gate — discover what details to be discarded from the block. It is decided by the sigmoid function. it looks at the previous state(ht-1) and the content input(Xt) and outputs a number between 0(omit this)and 1(keep this)for each number in the cell state Ct−1.
-Output gate — the input and the memory of the block is used to decide the output. Sigmoid function decides which values to let through 0,1. and tanh function gives weightage to the values which are passed deciding their level of importance ranging from-1 to 1 and multiplied with output of Sigmoid.
-![image](https://user-images.githubusercontent.com/67469727/150083461-197fe8fe-f6f0-4067-be8c-17ccedb04c9d.png)
+*Input gate — discover which value from input should be used to modify the memory. Sigmoid function decides which values to let through 0,1. and tanh function gives weightage to the values which are passed deciding their level of importance ranging from-1 to 1.
+*Forget gate — discover what details to be discarded from the block. It is decided by the sigmoid function. it looks at the previous state(ht-1) and the content input(Xt) and outputs a number between 0(omit this)and 1(keep this)for each number in the cell state Ct−1.
+*Output gate — the input and the memory of the block is used to decide the output. Sigmoid function decides which values to let through 0,1. and tanh function gives weightage to the values which are passed deciding their level of importance ranging from-1 to 1 and multiplied with output of Sigmoid.
+
 
 Data Source:
 https://aditi-mittal.medium.com/understanding-rnn-and-lstm-f7cdf6dfc14e
