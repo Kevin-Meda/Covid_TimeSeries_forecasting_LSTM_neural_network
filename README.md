@@ -19,7 +19,7 @@ In this project, a LSTM Recurrent Neural Networks based on TensorFlow is develop
 The main problem to be solved is to predict the amount of deaths in the following 2 weeks depending on the amount of cases, receovered people and vaccination with 1 and 2 doses.
 
 ### Goal
-The main goal of this project is to develop a Deep Learning Recurrent Neural Network Long Short Term Memory (RNN LSTM) model. This Model should be used to predict with the highest accuracy the future covid deaths, for that we take into account different factor such as the Vaccination Doses.
+The main goal of this project is to develop a Deep Learning Recurrent Neural Network Long Short Term Memory (RNN LSTM) model. This Model should be able to predict with a high accuracy the future covid deaths, for that we take into account different factors such as the Vaccination Doses, recovered people and new cases.
 
 ## Data Description tbd
 tbd.
