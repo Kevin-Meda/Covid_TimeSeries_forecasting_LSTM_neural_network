@@ -41,8 +41,7 @@ In an LSTM network, three gates are present:
 *Input gate — discover which value from input should be used to modify the memory. Sigmoid function decides which values to let through 0,1. and tanh function gives weightage to the values which are passed deciding their level of importance ranging from-1 to 1.
 *Forget gate — discover what details to be discarded from the block. It is decided by the sigmoid function. it looks at the previous state(ht-1) and the content input(Xt) and outputs a number between 0(omit this)and 1(keep this)for each number in the cell state Ct−1.
 *Output gate — the input and the memory of the block is used to decide the output. Sigmoid function decides which values to let through 0,1. and tanh function gives weightage to the values which are passed deciding their level of importance ranging from-1 to 1 and multiplied with output of Sigmoid.
-Long Short Term Memory (LSTM)![image](https://user-images.githubusercontent.com/67469727/150086251-d4148b14-f25a-4b2b-b66c-81a12e9ba39c.png)
-
+Long Short Term Memory (LSTM)![alt text](https://user-images.githubusercontent.com/67469727/150086251-d4148b14-f25a-4b2b-b66c-81a12e9ba39c.png)
 
 Data Source:
 https://aditi-mittal.medium.com/understanding-rnn-and-lstm-f7cdf6dfc14e
