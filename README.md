@@ -21,19 +21,18 @@ The main problem to be solved is to predict the amount of deaths in the followin
 ### Goal
 The main goal of this project is to develop a Deep Learning Recurrent Neuran Network Long Short Term Memory (RNN LSTM) model. This Model should be used to predict with the highest accuracy the future covid deaths, for that we take into account different factor such as the Vaccination Doses.
 
-## Data Description
-
+## Data Description tbd
 tbd.
 The data consists of ---  in ---:
 
 which we will first download.
 These files ... (Details here). After preprocessing we will store ....
 
-## Model Description
+## Model Description tbd
 tbd.
 For the model we will try three different models. A simple linear model, an ensemble model and lastly a multi-layer dense neural network. This is not the state-of-the-art solution for this taks, but serves as a simple first idea benchmark.
 
-## Results Overview
+## Results Overview tbd
 tbd.
 Results here. For example:
 Prediction accuracy per model:
@@ -49,7 +48,7 @@ Misclassification confusion matrix:
 Examples of wrong predictions:
 
 
-## Project structure
+## Project structure tbd
 tbd.
 The Goal here is that you write one or two sentences explaining what is in the folders of your structure and how the structure looks like
 
