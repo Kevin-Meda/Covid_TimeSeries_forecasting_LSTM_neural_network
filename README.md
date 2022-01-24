@@ -61,6 +61,15 @@ Misclassification confusion matrix:
 
 Examples of wrong predictions:
 
+## Conclusions after analysis
+As seen in the results, trying to predict with high accuracy the number of deaths in pandemic is a very hard task as there are numerous related variables that cannot be easily collected and considered in prediction models. In addition, there are many not well-known factors that may influence a death prediction, which makes this task very complex.
+
+The amount of data collected is very few and in a very short period of time, not like many other illness already studied throughout several years which provide much more data to be analyzed.
+
+Even though it is a hard task, it is possible to have certain confidence interval that follows a trend which may give us a general idea in the number of possible deaths and with this information take the corresponding measures for the situation.​
+
+Machine Learning Models, in specific Neural Networks are the state-of-the-art model approaches for this type of predictions as they can find hidden correlations between variables that a mathematical model may not consider. Nonetheless, they may still be very erroneous when not much data is provided or not significant features.
+
 
 ## Project structure tbd
 tbd.
