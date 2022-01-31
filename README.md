@@ -3,7 +3,7 @@
 
 __Machine Learning/Deep Learning Prediction for Covid Deaths__
 
-In this project, a LSTM Recurrent Neural Networks based on TensorFlow is developed to predict the Covid Deaths in Germany for the following  based on cases, recovered people and vaccinated people
+In this project, a LSTM Recurrent Neural Networks based on TensorFlow is developed to predict the Covid Deaths in Germany for 2 following weeks. This based on features like cases, recovered people and vaccinated people
 
 #### Data Source (3 different datasets): https://www.kaggle.com/headsortails/covid19-tracking-germany
 ### __Tableau Dashboard__ created to interact with datasets: 
